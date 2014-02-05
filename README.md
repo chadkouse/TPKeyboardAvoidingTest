@@ -1,6 +1,8 @@
 TPKeyboardAvoidingTest
 ======================
 
+Open the .xcworkspace file not the .xcodeproj  
+
 **This demonstrates the broken state**  
 
 To demonstrate a working state, change the podfile to read:
