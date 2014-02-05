@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49869DEB306E4FBC99FD2F0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A97FF9F48DF4D5EBE2B30AE /* libPods.a */; };
+		4EEF508618A1CF1500C6E13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEF508518A1CF1500C6E13B /* Foundation.framework */; };
+		4EEF508818A1CF1500C6E13B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEF508718A1CF1500C6E13B /* CoreGraphics.framework */; };
+		4EEF508A18A1CF1500C6E13B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEF508918A1CF1500C6E13B /* UIKit.framework */; };
+		4EEF509018A1CF1500C6E13B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF508E18A1CF1500C6E13B /* InfoPlist.strings */; };
+		4EEF509218A1CF1500C6E13B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF509118A1CF1500C6E13B /* main.m */; };
+		4EEF509618A1CF1600C6E13B /* ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF509518A1CF1500C6E13B /* ExampleAppDelegate.m */; };
+		4EEF509918A1CF1600C6E13B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF509718A1CF1600C6E13B /* Main_iPhone.storyboard */; };
+		4EEF509C18A1CF1600C6E13B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF509A18A1CF1600C6E13B /* Main_iPad.storyboard */; };
+		4EEF509F18A1CF1600C6E13B /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF509E18A1CF1600C6E13B /* ExampleViewController.m */; };
+		4EEF50A118A1CF1600C6E13B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF50A018A1CF1600C6E13B /* Images.xcassets */; };
+		4EEF50A818A1CF1600C6E13B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEF50A718A1CF1600C6E13B /* XCTest.framework */; };
+		4EEF50A918A1CF1600C6E13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEF508518A1CF1500C6E13B /* Foundation.framework */; };
+		4EEF50AA18A1CF1600C6E13B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEF508918A1CF1500C6E13B /* UIKit.framework */; };
+		4EEF50B218A1CF1600C6E13B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF50B018A1CF1600C6E13B /* InfoPlist.strings */; };
+		4EEF50B418A1CF1600C6E13B /* TPKeyboardAvoidingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF50B318A1CF1600C6E13B /* TPKeyboardAvoidingTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EEF50AB18A1CF1600C6E13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EEF507A18A1CF1500C6E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEF508118A1CF1500C6E13B;
+			remoteInfo = TPKeyboardAvoidingTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EEF508218A1CF1500C6E13B /* TPKeyboardAvoidingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPKeyboardAvoidingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEF508518A1CF1500C6E13B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EEF508718A1CF1500C6E13B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4EEF508918A1CF1500C6E13B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4EEF508D18A1CF1500C6E13B /* TPKeyboardAvoidingTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPKeyboardAvoidingTest-Info.plist"; sourceTree = "<group>"; };
+		4EEF508F18A1CF1500C6E13B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EEF509118A1CF1500C6E13B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EEF509318A1CF1500C6E13B /* TPKeyboardAvoidingTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoidingTest-Prefix.pch"; sourceTree = "<group>"; };
+		4EEF509418A1CF1500C6E13B /* ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
+		4EEF509518A1CF1500C6E13B /* ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDelegate.m; sourceTree = "<group>"; };
+		4EEF509818A1CF1600C6E13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4EEF509B18A1CF1600C6E13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4EEF509D18A1CF1600C6E13B /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		4EEF509E18A1CF1600C6E13B /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		4EEF50A018A1CF1600C6E13B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EEF50A618A1CF1600C6E13B /* TPKeyboardAvoidingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPKeyboardAvoidingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEF50A718A1CF1600C6E13B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4EEF50AF18A1CF1600C6E13B /* TPKeyboardAvoidingTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPKeyboardAvoidingTestTests-Info.plist"; sourceTree = "<group>"; };
+		4EEF50B118A1CF1600C6E13B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EEF50B318A1CF1600C6E13B /* TPKeyboardAvoidingTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTestTests.m; sourceTree = "<group>"; };
+		9A97FF9F48DF4D5EBE2B30AE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6C69E65162405782D2298F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EEF507F18A1CF1500C6E13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEF508818A1CF1500C6E13B /* CoreGraphics.framework in Frameworks */,
+				4EEF508A18A1CF1500C6E13B /* UIKit.framework in Frameworks */,
+				4EEF508618A1CF1500C6E13B /* Foundation.framework in Frameworks */,
+				49869DEB306E4FBC99FD2F0E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEF50A318A1CF1600C6E13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEF50A818A1CF1600C6E13B /* XCTest.framework in Frameworks */,
+				4EEF50AA18A1CF1600C6E13B /* UIKit.framework in Frameworks */,
+				4EEF50A918A1CF1600C6E13B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EEF507918A1CF1500C6E13B = {
+			isa = PBXGroup;
+			children = (
+				4EEF508B18A1CF1500C6E13B /* TPKeyboardAvoidingTest */,
+				4EEF50AD18A1CF1600C6E13B /* TPKeyboardAvoidingTestTests */,
+				4EEF508418A1CF1500C6E13B /* Frameworks */,
+				4EEF508318A1CF1500C6E13B /* Products */,
+				AC6C69E65162405782D2298F /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4EEF508318A1CF1500C6E13B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF508218A1CF1500C6E13B /* TPKeyboardAvoidingTest.app */,
+				4EEF50A618A1CF1600C6E13B /* TPKeyboardAvoidingTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EEF508418A1CF1500C6E13B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF508518A1CF1500C6E13B /* Foundation.framework */,
+				4EEF508718A1CF1500C6E13B /* CoreGraphics.framework */,
+				4EEF508918A1CF1500C6E13B /* UIKit.framework */,
+				4EEF50A718A1CF1600C6E13B /* XCTest.framework */,
+				9A97FF9F48DF4D5EBE2B30AE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EEF508B18A1CF1500C6E13B /* TPKeyboardAvoidingTest */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF509418A1CF1500C6E13B /* ExampleAppDelegate.h */,
+				4EEF509518A1CF1500C6E13B /* ExampleAppDelegate.m */,
+				4EEF509718A1CF1600C6E13B /* Main_iPhone.storyboard */,
+				4EEF509A18A1CF1600C6E13B /* Main_iPad.storyboard */,
+				4EEF509D18A1CF1600C6E13B /* ExampleViewController.h */,
+				4EEF509E18A1CF1600C6E13B /* ExampleViewController.m */,
+				4EEF50A018A1CF1600C6E13B /* Images.xcassets */,
+				4EEF508C18A1CF1500C6E13B /* Supporting Files */,
+			);
+			path = TPKeyboardAvoidingTest;
+			sourceTree = "<group>";
+		};
+		4EEF508C18A1CF1500C6E13B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF508D18A1CF1500C6E13B /* TPKeyboardAvoidingTest-Info.plist */,
+				4EEF508E18A1CF1500C6E13B /* InfoPlist.strings */,
+				4EEF509118A1CF1500C6E13B /* main.m */,
+				4EEF509318A1CF1500C6E13B /* TPKeyboardAvoidingTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EEF50AD18A1CF1600C6E13B /* TPKeyboardAvoidingTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF50B318A1CF1600C6E13B /* TPKeyboardAvoidingTestTests.m */,
+				4EEF50AE18A1CF1600C6E13B /* Supporting Files */,
+			);
+			path = TPKeyboardAvoidingTestTests;
+			sourceTree = "<group>";
+		};
+		4EEF50AE18A1CF1600C6E13B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF50AF18A1CF1600C6E13B /* TPKeyboardAvoidingTestTests-Info.plist */,
+				4EEF50B018A1CF1600C6E13B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EEF508118A1CF1500C6E13B /* TPKeyboardAvoidingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEF50B718A1CF1600C6E13B /* Build configuration list for PBXNativeTarget "TPKeyboardAvoidingTest" */;
+			buildPhases = (
+				1B5A2D002ED74498A96A1BC1 /* Check Pods Manifest.lock */,
+				4EEF507E18A1CF1500C6E13B /* Sources */,
+				4EEF507F18A1CF1500C6E13B /* Frameworks */,
+				4EEF508018A1CF1500C6E13B /* Resources */,
+				C61DA672228A4C2092E85374 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPKeyboardAvoidingTest;
+			productName = TPKeyboardAvoidingTest;
+			productReference = 4EEF508218A1CF1500C6E13B /* TPKeyboardAvoidingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EEF50A518A1CF1600C6E13B /* TPKeyboardAvoidingTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEF50BA18A1CF1600C6E13B /* Build configuration list for PBXNativeTarget "TPKeyboardAvoidingTestTests" */;
+			buildPhases = (
+				4EEF50A218A1CF1600C6E13B /* Sources */,
+				4EEF50A318A1CF1600C6E13B /* Frameworks */,
+				4EEF50A418A1CF1600C6E13B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EEF50AC18A1CF1600C6E13B /* PBXTargetDependency */,
+			);
+			name = TPKeyboardAvoidingTestTests;
+			productName = TPKeyboardAvoidingTestTests;
+			productReference = 4EEF50A618A1CF1600C6E13B /* TPKeyboardAvoidingTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EEF507A18A1CF1500C6E13B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Example;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Example;
+				TargetAttributes = {
+					4EEF50A518A1CF1600C6E13B = {
+						TestTargetID = 4EEF508118A1CF1500C6E13B;
+					};
+				};
+			};
+			buildConfigurationList = 4EEF507D18A1CF1500C6E13B /* Build configuration list for PBXProject "TPKeyboardAvoidingTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EEF507918A1CF1500C6E13B;
+			productRefGroup = 4EEF508318A1CF1500C6E13B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				4EEF508118A1CF1500C6E13B /* TPKeyboardAvoidingTest */,
+				4EEF50A518A1CF1600C6E13B /* TPKeyboardAvoidingTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EEF508018A1CF1500C6E13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEF509C18A1CF1600C6E13B /* Main_iPad.storyboard in Resources */,
+				4EEF50A118A1CF1600C6E13B /* Images.xcassets in Resources */,
+				4EEF509918A1CF1600C6E13B /* Main_iPhone.storyboard in Resources */,
+				4EEF509018A1CF1500C6E13B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEF50A418A1CF1600C6E13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEF50B218A1CF1600C6E13B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5A2D002ED74498A96A1BC1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C61DA672228A4C2092E85374 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EEF507E18A1CF1500C6E13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEF509F18A1CF1600C6E13B /* ExampleViewController.m in Sources */,
+				4EEF509218A1CF1500C6E13B /* main.m in Sources */,
+				4EEF509618A1CF1600C6E13B /* ExampleAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEF50A218A1CF1600C6E13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEF50B418A1CF1600C6E13B /* TPKeyboardAvoidingTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EEF50AC18A1CF1600C6E13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EEF508118A1CF1500C6E13B /* TPKeyboardAvoidingTest */;
+			targetProxy = 4EEF50AB18A1CF1600C6E13B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EEF508E18A1CF1500C6E13B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EEF508F18A1CF1500C6E13B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4EEF509718A1CF1600C6E13B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EEF509818A1CF1600C6E13B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4EEF509A18A1CF1600C6E13B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EEF509B18A1CF1600C6E13B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4EEF50B018A1CF1600C6E13B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EEF50B118A1CF1600C6E13B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EEF50B518A1CF1600C6E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EEF50B618A1CF1600C6E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EEF50B818A1CF1600C6E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6C69E65162405782D2298F /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPKeyboardAvoidingTest/TPKeyboardAvoidingTest-Prefix.pch";
+				INFOPLIST_FILE = "TPKeyboardAvoidingTest/TPKeyboardAvoidingTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4EEF50B918A1CF1600C6E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6C69E65162405782D2298F /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPKeyboardAvoidingTest/TPKeyboardAvoidingTest-Prefix.pch";
+				INFOPLIST_FILE = "TPKeyboardAvoidingTest/TPKeyboardAvoidingTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4EEF50BB18A1CF1600C6E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TPKeyboardAvoidingTest.app/TPKeyboardAvoidingTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPKeyboardAvoidingTest/TPKeyboardAvoidingTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TPKeyboardAvoidingTestTests/TPKeyboardAvoidingTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4EEF50BC18A1CF1600C6E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TPKeyboardAvoidingTest.app/TPKeyboardAvoidingTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPKeyboardAvoidingTest/TPKeyboardAvoidingTest-Prefix.pch";
+				INFOPLIST_FILE = "TPKeyboardAvoidingTestTests/TPKeyboardAvoidingTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EEF507D18A1CF1500C6E13B /* Build configuration list for PBXProject "TPKeyboardAvoidingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEF50B518A1CF1600C6E13B /* Debug */,
+				4EEF50B618A1CF1600C6E13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEF50B718A1CF1600C6E13B /* Build configuration list for PBXNativeTarget "TPKeyboardAvoidingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEF50B818A1CF1600C6E13B /* Debug */,
+				4EEF50B918A1CF1600C6E13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EEF50BA18A1CF1600C6E13B /* Build configuration list for PBXNativeTarget "TPKeyboardAvoidingTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEF50BB18A1CF1600C6E13B /* Debug */,
+				4EEF50BC18A1CF1600C6E13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EEF507A18A1CF1500C6E13B /* Project object */;
+}
